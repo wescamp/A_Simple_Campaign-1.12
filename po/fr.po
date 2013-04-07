@@ -1,27 +1,31 @@
+#
+# Guillaume Pascal <guillaume.pascal43@laposte.net>, 2012.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: A_Simple_Campaign-1.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-30 00:22-0500\n"
-"PO-Revision-Date: 2013-01-30 00:22-0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2013-03-10 15:44+0100\n"
+"Last-Translator: Pyrophorus <l.sebilleauATfree.fr>\n"
+"Language-Team: French<wesnoth@ml.free.fr>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 0.7.0\n"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #. [editor_group]: id=sc
 #: A_Simple_Campaign/_main.cfg:48 A_Simple_Campaign/_main.cfg:98
 msgid "A Simple Campaign"
-msgstr ""
+msgstr "Une Campagne Simple"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:49
 msgid "ASC"
-msgstr ""
+msgstr "UCS"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:53
@@ -30,6 +34,9 @@ msgid ""
 "necromancers/dark-sorcerer-attack-staff-2.png=Medium;&units/undead-"
 "necromancers/ancient-lich-magic-3.png=Difficult"
 msgstr ""
+"&units/undead-necromancers/adept-magic-3.png=Facile;*&units/undead-"
+"necromancers/dark-sorcerer-attack-staff-2.png=Moyen;&units/undead-"
+"necromancers/ancient-lich-magic-3.png=Difficile"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:58
@@ -38,36 +45,39 @@ msgid ""
 "campaign. Contains about the bare minimum that's needed for a campaign and "
 "some helpful comments."
 msgstr ""
+"Ceci est une ébauche de campagne, destinée à rendre la création d’une "
+"campagne plus facile. Contient le strict minimum nécessaire à une campagne "
+"et quelques commentaires utiles."
 
 #. [part]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:12
 msgid "this is where the story goes"
-msgstr ""
+msgstr "C’est là qu'il faut mettre le récit (story)"
 
 #. [scenario]: id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg)
 #: A_Simple_Campaign/scenarios/01_Template.cfg:26
 msgid "Template"
-msgstr ""
+msgstr "Modèle"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:59
 msgid "foo"
-msgstr ""
+msgstr "foo"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:65
 msgid "His Awesomeness"
-msgstr ""
+msgstr "Le Stupéfiant"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:84
 msgid "bar"
-msgstr ""
+msgstr "bar"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:89
 msgid "Lord Awesomeness"
-msgstr ""
+msgstr "Seigneur Stupéfiant"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:110
@@ -77,6 +87,10 @@ msgid ""
 "part is the very start. This campaign contains about the bare minimum that's "
 "needed for a campaign and some helpful comments."
 msgstr ""
+"Bienvenue, futur développeur de campagnes ! Ceci est une ébauche de "
+"campagne, destinée à rendre la création d’une campagne plus facile, étant "
+"donné que le plus difficile est de faire les premiers pas. Contient le "
+"strict minimum nécessaire à une campagne et quelques commentaires utiles."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:116
@@ -86,6 +100,10 @@ msgid ""
 "message in the code instead of reading it on the screen: http://wiki.wesnoth."
 "org/BuildingCampaignsTutorial/FirstCampaign"
 msgstr ""
+"Il y a une page liée à cette extension dans le wiki de Wesnoth, elle vous "
+"indique également où chercher les fichiers de cette extension afin que vous "
+"puissiez réellement lire ce message dans le code au lieu de le lire à "
+"l'écran : http://wiki.wesnoth.org/BuildingCampaignsTutorial/FirstCampaign"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:119
@@ -93,11 +111,15 @@ msgid ""
 "site related to this add-on: http://wiki.wesnoth.org/"
 "BuildingCampaignsTutorial/FirstCampaign"
 msgstr ""
+"Page en rapport avec cette extension : http://wiki.wesnoth.org/"
+"BuildingCampaignsTutorial/FirstCampaign"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:124
 msgid "However, I don't update that site so probably nobody does..."
 msgstr ""
+"Cependant, je ne mets pas à jour ce site, donc probablement personne ne le "
+"fait..."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:130
@@ -106,6 +128,9 @@ msgid ""
 "userdata directory, explanation where this directory is here: http://wiki."
 "wesnoth.org/EditingWesnoth"
 msgstr ""
+"Les dossiers de cette extension contenant la description de ce qui s'y "
+"passe, se trouvent dans votre répertoire userdata, l'explication pour savoir "
+"où trouver ce répertoire est ici : http://wiki.wesnoth.org/EditingWesnoth"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:133
@@ -113,37 +138,43 @@ msgid ""
 "Where are the files of this add-on ? read here: http://wiki.wesnoth.org/"
 "EditingWesnoth"
 msgstr ""
+"Où sont les fichiers de cette extension ? Lire ici : http://wiki.wesnoth.org/"
+"EditingWesnoth"
 
 #. [objectives]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:139
 msgid "final objectives:"
-msgstr ""
+msgstr "objectifs finaux :"
 
 #. [objective]: condition=win
 #: A_Simple_Campaign/scenarios/01_Template.cfg:141
 msgid "Defeat the enemy leader"
-msgstr ""
+msgstr "Vaincre le chef ennemi"
 
 #. [objective]: condition=lose
 #: A_Simple_Campaign/scenarios/01_Template.cfg:145
 msgid "Death of His Awesomenes"
-msgstr ""
+msgstr "Mort de Le Stupéfiant"
 
 #. [message]: id=created_unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:167
 msgid "Hey, I'm a custom unit of this campaign and I've just appeared."
 msgstr ""
+"Hé, je suis une unité personnalisée de cette campagne et je viens "
+"d’apparaître."
 
 #. [message]: speaker=unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:178
 msgid ""
 "I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
 msgstr ""
+"Je suis une unité du camp 1 et je viens de me déplacer vers l'hexagone avec "
+"les coordonnées $x1;$y1."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:184
 msgid "Let's play some custom sound..."
-msgstr ""
+msgstr "Jouons des sons personnalisés..."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:193
@@ -152,12 +183,17 @@ msgid ""
 "this event is a bit more adanced wml. You don't need to understand it if "
 "you've just started to code wml."
 msgstr ""
+"Il s'agit d'une macro du répertoire macros/. Bientôt suivie d'une autre "
+"macro. Le code de cet événement est un code wml un peu plus avancé. Il n'est "
+"pas utile de le comprendre si vous commencez juste à coder en WML."
 
+# On affiche la variable twotimesthree. Résultat visible dans la campagne.
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:200
 msgid "two times three is $twotimesthree|."
-msgstr ""
+msgstr "Deux fois trois a pour résultat $twotimesthree|."
 
+# On essaye d'afficher le résultat de twotimestrree et il n'y a plus rien. Résultat visible dans la campagne.
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:202
 msgid ""
@@ -165,26 +201,31 @@ msgid ""
 "$twotimesthree| You should always clear your variables once that you no "
 "longer need them."
 msgstr ""
+"La variable twotimesthree est effacée maintenant, vous ne pouvez plus "
+"l'utiliser : $twotimesthree| Vous devez toujours nettoyer vos variables une "
+"fois que vous n'en avez plus besoin."
 
 #. [terrain_type]: id=asc-custom-terrain
 #: A_Simple_Campaign/terrain/terrain-definitions.cfg:8
 msgid "ASC's custom terrain"
-msgstr ""
+msgstr "Un terrain personnalisé de UCS"
 
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:5
 msgid "some custom unit"
-msgstr ""
+msgstr "Une unité personnalisée"
 
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:18
 msgid "This is a custom unit in ASC demonstrating how to create such units."
 msgstr ""
+"Ceci est une unité personnalisée d’UCS, décrivant comment créer de telles "
+"unités."
 
 #. [attack]: type=impact
 #: A_Simple_Campaign/units/Custom_Unit.cfg:28
 msgid "Sword"
-msgstr ""
+msgstr "Épée"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:8
@@ -193,13 +234,37 @@ msgid ""
 "This macro is a bit more advanced, you don't need to care about it at the "
 "beginning."
 msgstr ""
+"Il s'agit d'une macro du répertoire utils/. Nous allons effectuer un petit "
+"calcul et retourner le résultat. Cette macro est un peu plus avancée, il "
+"n'est pas nécessaire de s'en soucier au début."
 
+# C'est pour démontrer que la variable two à été impacté par le calcul. Résultat visible dans la campagne
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:17
 msgid "Variable with name two has been set to $two|."
-msgstr ""
+msgstr "La variable nommée two est initialisée à $two|."
 
+# Le résultat de la macro est effectif dans le message de la campagne.
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:26
 msgid "Variable with name two has been multiplied by 3 to value $two|."
 msgstr ""
+"La variable nommée two a été multipliée par 3 prenant ainsi comme valeur "
+"$two|."
+
+#~ msgid ""
+#~ "Welcome, future UMC developer. This is a stub of a campaign, intended to "
+#~ "make life easier in creating a campaign, since the by far most difficult "
+#~ "part is the very start. This campaign contains about the bare minimum "
+#~ "that's needed for a campaign and some helpful comments. Note that by "
+#~ "creating a campaign which targets wesnoth's development version you may "
+#~ "run into engine bugs which you mistakenly think of being caused by your "
+#~ "wml code."
+#~ msgstr ""
+#~ "Bonjour, futur développeur d'UMC. Ceci est une ébauche de campagne, "
+#~ "destinée à rendre la création d’une campagne plus facile, car la partie "
+#~ "de loin la plus difficile est le début. Cette campagne contient le strict "
+#~ "minimum nécessaire à une campagne et quelques commentaires utiles. Notez "
+#~ "que en créant une campagne destinée à la version de développement de "
+#~ "Wesnoth, vous pouvez rencontrer des bugs du moteur que vous penserez à "
+#~ "tort être causés par votre code WML."
