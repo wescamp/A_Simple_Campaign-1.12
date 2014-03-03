@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: A_Simple_Campaign-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-30 00:22-0500\n"
+"POT-Creation-Date: 2014-03-03 21:35+0100\n"
 "PO-Revision-Date: 2013-01-30 00:22-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -167,7 +167,7 @@ msgid ""
 msgstr ""
 
 #. [terrain_type]: id=asc-custom-terrain
-#: A_Simple_Campaign/terrain/terrain-definitions.cfg:8
+#: A_Simple_Campaign/terrain/terrain-definitions.cfg:9
 msgid "ASC's custom terrain"
 msgstr ""
 
@@ -177,12 +177,12 @@ msgid "some custom unit"
 msgstr ""
 
 #. [unit_type]: id=Custom Unit, race=human
-#: A_Simple_Campaign/units/Custom_Unit.cfg:18
+#: A_Simple_Campaign/units/Custom_Unit.cfg:17
 msgid "This is a custom unit in ASC demonstrating how to create such units."
 msgstr ""
 
 #. [attack]: type=impact
-#: A_Simple_Campaign/units/Custom_Unit.cfg:28
+#: A_Simple_Campaign/units/Custom_Unit.cfg:27
 msgid "Sword"
 msgstr ""
 
