@@ -3,25 +3,26 @@ msgstr ""
 "Project-Id-Version: A_Simple_Campaign-1.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-03 21:35+0100\n"
-"PO-Revision-Date: 2013-01-30 00:22-0500\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-03-09 13:49+0100\n"
+"Last-Translator: Stanislav Hoferek <shoferek@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #. [editor_group]: id=sc
 #: A_Simple_Campaign/_main.cfg:48 A_Simple_Campaign/_main.cfg:98
 msgid "A Simple Campaign"
-msgstr ""
+msgstr "Jednoduchá Kampaň"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:49
 msgid "ASC"
-msgstr ""
+msgstr "JK"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:53
@@ -30,6 +31,9 @@ msgid ""
 "necromancers/dark-sorcerer-attack-staff-2.png=Medium;&units/undead-"
 "necromancers/ancient-lich-magic-3.png=Difficult"
 msgstr ""
+"&units/undead-necromancers/adept-magic-3.png=Ľahké;*&units/undead-"
+"necromancers/dark-sorcerer-attack-staff-2.png=Stredné;&units/undead-"
+"necromancers/ancient-lich-magic-3.png=Ťažké"
 
 #. [campaign]: id=A_Simple_Campaign # Needed to connect savefiles with their campaign.
 #: A_Simple_Campaign/_main.cfg:58
@@ -38,36 +42,39 @@ msgid ""
 "campaign. Contains about the bare minimum that's needed for a campaign and "
 "some helpful comments."
 msgstr ""
+"Toto je kratučká kapmaň, ktorá je určená pre zjednodušenie práce pri tvorbe "
+"skutočných kampaní. Obsahuje úplný základ, ktorý je potrebný pre tvorcov "
+"príbehov a niekoľko užitočných komentárov."
 
 #. [part]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:12
 msgid "this is where the story goes"
-msgstr ""
+msgstr "tu začína príbeh"
 
 #. [scenario]: id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg)
 #: A_Simple_Campaign/scenarios/01_Template.cfg:26
 msgid "Template"
-msgstr ""
+msgstr "Šablóna"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:59
 msgid "foo"
-msgstr ""
+msgstr "foo"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:65
 msgid "His Awesomeness"
-msgstr ""
+msgstr "Pán Úžasný"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:84
 msgid "bar"
-msgstr ""
+msgstr "bar"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:89
 msgid "Lord Awesomeness"
-msgstr ""
+msgstr "Lord Úžasný"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:110
@@ -77,6 +84,9 @@ msgid ""
 "part is the very start. This campaign contains about the bare minimum that's "
 "needed for a campaign and some helpful comments."
 msgstr ""
+"Vitaj, budúci UMC vývojár. Toto je kratučká kapmaň, ktorá je určená pre "
+"zjednodušenie práce pri tvorbe skutočných kampaní. Obsahuje úplný základ, "
+"ktorý je potrebný pre tvorcov príbehov a niekoľko užitočných komentárov."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:116
@@ -86,6 +96,10 @@ msgid ""
 "message in the code instead of reading it on the screen: http://wiki.wesnoth."
 "org/BuildingCampaignsTutorial/FirstCampaign"
 msgstr ""
+"Na Wesnoth Wiki je stránka, ktorá zaoberá špeciálne tvorbou kampaní. Text, "
+"ktorý čítaš v tomto okamihu, si môžeš prečítať aj priamo v kóde kampane, "
+"nielen v grafickom rozhraní hry. Navštív stránku http://wiki.wesnoth.org/"
+"BuildingCampaignsTutorial/FirstCampaign"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:119
@@ -93,11 +107,13 @@ msgid ""
 "site related to this add-on: http://wiki.wesnoth.org/"
 "BuildingCampaignsTutorial/FirstCampaign"
 msgstr ""
+"stránka previazaná s týmto doplnkom: http://wiki.wesnoth.org/"
+"BuildingCampaignsTutorial/FirstCampaign"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:124
 msgid "However, I don't update that site so probably nobody does..."
-msgstr ""
+msgstr "Aj keď... ja sa o to nestarám a pravdepodobne asi nikto..."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:130
@@ -106,6 +122,8 @@ msgid ""
 "userdata directory, explanation where this directory is here: http://wiki."
 "wesnoth.org/EditingWesnoth"
 msgstr ""
+"Súbory v tomto doplnku sa nachádzajú v osobnom priečinku. Stránka http://"
+"wiki.wesnoth.org/EditingWesnoth vysvetlí kde presne to je."
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:133
@@ -113,37 +131,41 @@ msgid ""
 "Where are the files of this add-on ? read here: http://wiki.wesnoth.org/"
 "EditingWesnoth"
 msgstr ""
+"Kde sa nachádzajú súbory tohto doplnku? Prečítaj si tu: http://wiki.wesnoth."
+"org/EditingWesnoth"
 
 #. [objectives]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:139
 msgid "final objectives:"
-msgstr ""
+msgstr "Cieľ hry:"
 
 #. [objective]: condition=win
 #: A_Simple_Campaign/scenarios/01_Template.cfg:141
 msgid "Defeat the enemy leader"
-msgstr ""
+msgstr "Porazíš nepriateľského veliteľa"
 
 #. [objective]: condition=lose
 #: A_Simple_Campaign/scenarios/01_Template.cfg:145
 msgid "Death of His Awesomenes"
-msgstr ""
+msgstr "Zomrie Pán Úžasný (tvoj veliteľ)"
 
 #. [message]: id=created_unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:167
 msgid "Hey, I'm a custom unit of this campaign and I've just appeared."
-msgstr ""
+msgstr "Servus kámo! Som vytvorená jednotka a práve som sa tu akosi objavil!"
 
 #. [message]: speaker=unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:178
 msgid ""
 "I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
 msgstr ""
+"Podľa scenára mám byť na strane 1 (side=1) a práve som sa (dobrovoľne "
+"nasilu) presunul na políčko, ktoré má súradnice $x1,$y1."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:184
 msgid "Let's play some custom sound..."
-msgstr ""
+msgstr "Prehrajme si teraz nejaký zvuk."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:193
@@ -152,11 +174,16 @@ msgid ""
 "this event is a bit more adanced wml. You don't need to understand it if "
 "you've just started to code wml."
 msgstr ""
+"Toto je jedno z makier. Čoskoro začne ďalšie makro. Kód tejto udalosti "
+"(event) je trochu viac pokročilé WML. Nie je nutné kompletne tomu rozumieť, "
+"ak s WML len začínaš."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:200
 msgid "two times three is $twotimesthree|."
 msgstr ""
+"Ukážka jednoduchej matematiky. Ak vynásobíme čísla 2 a 3, získame číslo "
+"$twotimesthree|."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:202
@@ -165,26 +192,31 @@ msgid ""
 "$twotimesthree| You should always clear your variables once that you no "
 "longer need them."
 msgstr ""
+"Pretože premenná dva krát tri (twotimesthree) je teraz vyriešená, "
+"nepotrebuješ ju stále skladovať: $twotimesthree| Mal by si sa vždy zbaviť "
+"premenných, ktoré už nebudeš potrebovať."
 
 #. [terrain_type]: id=asc-custom-terrain
 #: A_Simple_Campaign/terrain/terrain-definitions.cfg:9
 msgid "ASC's custom terrain"
-msgstr ""
+msgstr "Nový terén Jednoduchej Kampane"
 
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:5
 msgid "some custom unit"
-msgstr ""
+msgstr "nejaká vlastná jednotka"
 
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:17
 msgid "This is a custom unit in ASC demonstrating how to create such units."
 msgstr ""
+"Toto je vlastná jednotka v JK, ktorá demonštruje vytváranie takýchto "
+"jednotiek."
 
 #. [attack]: type=impact
 #: A_Simple_Campaign/units/Custom_Unit.cfg:27
 msgid "Sword"
-msgstr ""
+msgstr "Meč"
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:8
@@ -193,13 +225,15 @@ msgid ""
 "This macro is a bit more advanced, you don't need to care about it at the "
 "beginning."
 msgstr ""
+"Toto je makro z utils/. Spočítajme niečo a vráťme výsledok. Makro je trochu "
+"náročnejšie, na začiatku sa tomu nemusíš veľmi venovať."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:17
 msgid "Variable with name two has been set to $two|."
-msgstr ""
+msgstr "Premenná s menom dva bola nastavená na $two|."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:26
 msgid "Variable with name two has been multiplied by 3 to value $two|."
-msgstr ""
+msgstr "Premenná s menom dva bola násobená číslom 3 na hodnotu $two|."
